@@ -21,3 +21,4 @@ Kali Linux
 <b>Some other commands can be :
 tcpdump -n “udp and dst port 53” This command will help you pickup DNS Requests.</b>
 <b>Tcpdump port 443 This command can help capture packets only related to port 443. Replace 443 with anyport number you want.</b>
+<b>There are tons of other ways to use the tcpdump. Here a link to help you out. https://docs.netgate.com/pfsense/en/latest/diagnostics/packetcapture/tcpdump.html</b>
