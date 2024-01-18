@@ -5,3 +5,6 @@ The TCPDump lab on Kali Linux focuses on teaching users how to capture packets u
 Learn to capture packets using tcpdump.
 <h2>Lab Tool</h2>
 Kali Linux
+<h2>TASK 1</h2>
+- <b>TCPDUMP is already installed in kali linux by default. First we use the command “tcpdump –version” and then tcpdump –help. Respectively with each command we get to know the version of tcpdump we are running and the available commands we can use.</b>
+<img src="https://i.imgur.com/J8lf6Sh.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
