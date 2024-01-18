@@ -36,7 +36,7 @@ tcpdump -n “udp and dst port 53” This command will help you pickup DNS Reque
 <img src="https://i.imgur.com/4k3837r.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 <h2>LAB Conclusion</h2>
-<b>•	In this lab, the objective was to learn packet capturing using tcpdump, a command-line tool on Kali Linux. The walkthrough included tasks such as checking the tcpdump version, selecting a network interface, capturing packets with various options (e.g., limiting the number of packets, including MAC addresses), and using verbose options for additional information like Time to Live and total length.
-•	The lab also covered specific commands for capturing DNS requests, filtering packets related to a specific port, and printing each packet in ASCII code. Additionally, it demonstrated the use of grep with tcpdump to selectively display information, showcasing the creative ways tcpdump can provide detailed insights into network activity.
-•	Furthermore, the lab highlighted the capability to save captured packets into a file using the -w option, enabling users to analyze and review the captured data later. Overall, the hands-on exercises in this lab aimed to enhance understanding and proficiency in using tcpdump for packet analysis on a network.
-</b>
+<b>In this lab, the objective was to learn packet capturing using tcpdump, a command-line tool on Kali Linux. The walkthrough included tasks such as checking the tcpdump version, selecting a network interface, capturing packets with various options (e.g., limiting the number of packets, including MAC addresses), and using verbose options for additional information like Time to Live and total length.</b>
+<b>The lab also covered specific commands for capturing DNS requests, filtering packets related to a specific port, and printing each packet in ASCII code. Additionally, it demonstrated the use of grep with tcpdump to selectively display information, showcasing the creative ways tcpdump can provide detailed insights into network activity.</b>
+<b>Furthermore, the lab highlighted the capability to save captured packets into a file using the -w option, enabling users to analyze and review the captured data later. Overall, the hands-on exercises in this lab aimed to enhance understanding and proficiency in using tcpdump for packet analysis on a network.</b>
+
