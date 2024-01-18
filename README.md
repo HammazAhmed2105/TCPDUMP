@@ -18,3 +18,6 @@ Kali Linux
 <h2>TASK 2</h2>
 <b>Using the verbose option in the command for packet capture is recommended since it provides us with extra data integrity information like Time to Live, total length, etc. All we need to do is add a -v parameter. Below you can see the difference between both commands. The above one uses a verbose option and the down one doesn’t. </b>
 <img src="https://i.imgur.com/yH9K2XP.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<b>Some other commands can be :
+tcpdump -n “udp and dst port 53” This command will help you pickup DNS Requests.</b>
+<b>Tcpdump port 443 This command can help capture packets only related to port 443. Replace 443 with anyport number you want.</b>
