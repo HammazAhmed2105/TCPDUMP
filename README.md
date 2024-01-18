@@ -22,3 +22,18 @@ Kali Linux
 tcpdump -n “udp and dst port 53” This command will help you pickup DNS Requests.</b>
 <b>Tcpdump port 443 This command can help capture packets only related to port 443. Replace 443 with anyport number you want.</b>
 <b>There are tons of other ways to use the tcpdump. Here a link to help you out. https://docs.netgate.com/pfsense/en/latest/diagnostics/packetcapture/tcpdump.html</b>
+
+<h2>TASK 3</h2>
+<b>To print each packet in ASCII code, we need to use “-A” parameter. This next command is an example of using grep with tcpdump to help it only display information we deem to be important. 
+•	tcpdump -n -i eth0 -A | grep -e “POST”</b>
+<b>This command will begin gathering all packets using tcpdump, and we then use grep to find and display all POST requests to us. This is an example of how tcpdump can be used in a creative fashion to display detailed information about the network.</b>
+<img src="https://i.imgur.com/zm0Xx6S.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+<h2>TASK 4</h2>
+<b>We can save our captured file as well. We need to add a -w and a filename with the extension .pcap at the end</b>
+<b>Tcpdump  -I eth0 -c 5 -w sess.pcap</b>
+
+<img src="https://i.imgur.com/4k3837r.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+
+
